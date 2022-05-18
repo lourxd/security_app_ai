@@ -11,7 +11,6 @@ import { AiOutlineDotChart, AiOutlineRadiusBottomleft } from "react-icons/ai"
 
 export default function Home() {
   const iconSize= 150
-
   return (
     <PageContainer>
         <ContentContainer>
@@ -24,7 +23,7 @@ export default function Home() {
               style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}
             >
               <ContentContainer style={{display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column"}}>
-                <h2 style={{fontSize: 70, fontWeight: "bold", color: "#fff"}}>AI in CyberSecurity</h2>
+                <h2 className='websiteTitle' style={{fontSize: 70, fontWeight: "bold", color: "#fff", textAlign: "center"}}>AI in CyberSecurity</h2>
                 <p style={{color: "#fff", width: 628, textAlign: "center"}}>
                 AI security tools work to discover, predict, justify, act, and learn about potential cybersecurity threats, without needing much human intervention.
                 </p>
@@ -38,7 +37,7 @@ export default function Home() {
               speed={4.8}
               style={{display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: "column"}}
             >
-              <ContentContainer style={{display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(400px, 1fr))", height: "fit-content", alignItems: "center", justifyContent: "space-around", flexDirection: "row"}}>
+              <ContentContainer className="homeGrid">
 
                 <div className='iconTextContainer'>
                   <SiSpeedtest

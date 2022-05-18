@@ -1,10 +1,12 @@
 import React from 'react'
-import {FcAbout} from "react-icons/fc"
+import {ImBinoculars} from "react-icons/im"
 import ContentContainer from '../components/contentContainer'
-export default function AboutUs() {
+
+
+export default function OurVision() {
   return (
     <ContentContainer>
-      <FcAbout
+      <ImBinoculars
         color={"#fff"}
         size={100}
       />

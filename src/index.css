@@ -24,7 +24,6 @@ code {
   align-items: center;
   justify-content: space-between;
   z-index: 0;
-  transform: translateX(-20px);
 }
 
 .list_header{
@@ -37,6 +36,24 @@ code {
   align-items: center;
   justify-content: space-around;
   display: flex;
+}
+
+.list_header_mobile{
+  position: fixed;
+  top: 0;
+  right: 0;
+  list-style-type: none;
+  height: 100%;
+  width: 70%;
+  margin: 0px;
+  margin-right: 0px;
+  padding: 0px;
+  align-items: center;
+  flex-direction: column;
+  background-color: #000000;
+  justify-content: space-around;
+  display: flex;
+  display: none;
 }
 
 .logo_container{
@@ -105,3 +122,52 @@ code {
   margin-bottom: 100px;
 }
 
+
+.hamburguer{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  cursor: pointer;
+  display: none;
+}
+
+
+.homeGrid{
+  display: grid; 
+  width: 80%;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); 
+  height: fit-content;
+}
+
+.websiteTitle{
+  font-size: 70;
+  font-weight: bold; 
+  color: #fff; 
+  text-align: center
+}
+
+
+
+@media screen and (max-width: 1144px){
+  .homeGrid{
+    width: 100%
+  }
+}
+
+@media screen and (max-width: 816px){
+  .homeGrid{
+    margin-top: 1000px;
+  }
+}
+
+
+@media screen and (max-width: 650px){
+  .list_header{
+    display: none;
+  }
+  .hamburguer{
+    display: flex
+  }
+}
