@@ -163,6 +163,13 @@ code {
 }
 
 
+@media screen and (max-height: 700px){
+  .homeGrid{
+    margin-top: 1300px;
+  }
+}
+
+
 @media screen and (max-width: 650px){
   .list_header{
     display: none;
