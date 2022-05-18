@@ -142,7 +142,7 @@ code {
 }
 
 .websiteTitle{
-  font-size: 70;
+  font-size: 70px;
   font-weight: bold; 
   color: #fff; 
   text-align: center
@@ -169,5 +169,11 @@ code {
   }
   .hamburguer{
     display: flex
+  }
+}
+
+@media screen and (max-width: 490px){
+  .websiteTitle{
+    font-size: 50px;
   }
 }

@@ -23,15 +23,15 @@ export default function Home() {
               style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}
             >
               <ContentContainer style={{display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column"}}>
-                <h2 className='websiteTitle' style={{fontSize: 70, fontWeight: "bold", color: "#fff", textAlign: "center"}}>AI in CyberSecurity</h2>
+                <h2 className='websiteTitle'>AI in CyberSecurity</h2>
                 <p style={{color: "#fff", width: 628, textAlign: "center"}}>
-                AI security tools work to discover, predict, justify, act, and learn about potential cybersecurity threats, without needing much human intervention.
+                  AI security tools work to discover, predict, justify, act, and learn about potential cybersecurity threats, without needing much human intervention.
                 </p>
               </ContentContainer>
             </ParallaxLayer>
 
 
-            {/* First Text */}
+            {/* Icons */}
             <ParallaxLayer    
               offset={0.7}
               speed={4.8}
@@ -44,7 +44,7 @@ export default function Home() {
                     color={"#fff"}
                     size={iconSize}
                   />
-                  <p style={{color: "#fff"}}>
+                  <p style={{color: "#fff", fontWeight: "bold"}}>
                   AI can help to speed up detection.
                   </p>
                 </div>
@@ -54,7 +54,7 @@ export default function Home() {
                     color={"#fff"}
                     size={iconSize}
                   />
-                  <p style={{color: "#fff"}}>
+                  <p style={{color: "#fff", fontWeight: "bold"}}>
                   AI can process a huge number of events.
                   </p>
                 </div>
@@ -64,7 +64,7 @@ export default function Home() {
                     color={"#fff"}
                     size={iconSize}
                   />
-                  <p style={{color: "#fff"}}>
+                  <p style={{color: "#fff", fontWeight: "bold"}}>
                   AI can detect anomalys.
                   </p>
                 </div>
@@ -75,7 +75,7 @@ export default function Home() {
                     color={"#fff"}
                     size={iconSize}
                   />
-                  <p style={{color: "#fff"}}>
+                  <p style={{color: "#fff", fontWeight: "bold"}}>
                   AI learns continuesly.
                   </p>
                 </div>
@@ -85,7 +85,7 @@ export default function Home() {
                     color={"#fff"}
                     size={iconSize}
                   />
-                  <p style={{color: "#fff"}}>
+                  <p style={{color: "#fff", fontWeight: "bold"}}>
                   AI can even predict future incidence.
                   </p>
                 </div>
@@ -95,7 +95,7 @@ export default function Home() {
                     color={"#fff"}
                     size={iconSize}
                   />
-                  <p style={{color: "#fff"}}>
+                  <p style={{color: "#fff", fontWeight: "bold"}}>
                   AI is making logical and own conclusions.
                   </p>
                 </div>
