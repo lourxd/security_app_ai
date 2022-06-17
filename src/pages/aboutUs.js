@@ -9,9 +9,9 @@ export default function AboutUs() {
         color={"#fff"}
         size={100}
         />
-                  <p style={{color: "#fff"}}>
-                  Blue falg Solutions is a Security applications of AI start up, created on 2022 to respond to the market needs  
- ;.      </p>
+          <p style={{color: "#fff"}}>
+            Blue falg Solutions is a Security applications of AI start up, created on 2022 to respond to the market needs;
+          </p>
      
     </ContentContainer>
   )

@@ -4,7 +4,7 @@ import { useTransition, animated } from 'react-spring'
 import "../index.css"
 import { HiMenuAlt3 } from "react-icons/hi"
 
-export default function Header() {
+export default function Header({scroll}) {
     const navigate = useNavigate()
     const [isHeaderOpen, toggleHeader] = useState(false)
     const headerMobileAnimation = useTransition(isHeaderOpen,{
@@ -20,16 +20,15 @@ export default function Header() {
             </div>
             <ul className='list_header'>
                 <li className='single_list_element'><Link className='link_header' to="/">AI Security</Link></li> 
-                <li className='single_list_element'><Link className='link_header' to="/">Our vision</Link></li> 
-                <li className='single_list_element'><Link className='link_header' to="/">AI App</Link></li> 
+                <li className='single_list_element'><Link className='link_header' to="/our-vision">Our vision</Link></li> 
+                <li className='single_list_element'><Link className='link_header' to="/ai-app">AI App</Link></li> 
                 <li className='single_list_element'><Link className='link_header' to="/about-us">About Us</Link></li> 
             </ul>
-
             {headerMobileAnimation((style, item)=>
                 item && <animated.ul style={style} className='list_header_mobile'>
                             <li className='single_list_element'><Link className='link_header' to="/">AI Security</Link></li> 
-                            <li className='single_list_element'><Link className='link_header' to="/">Our vision</Link></li> 
-                            <li className='single_list_element'><Link className='link_header' to="/">AI App</Link></li> 
+                            <li className='single_list_element'><Link className='link_header' to="/our-vision">Our vision</Link></li> 
+                            <li className='single_list_element'><Link className='link_header' to="/ai-app">AI App</Link></li> 
                             <li className='single_list_element'><Link className='link_header' to="/about-us">About Us</Link></li> 
                             <li className='single_list_element'><span className='link_header' onClick={()=>toggleHeader(false)}>Back</span></li> 
                         </animated.ul>

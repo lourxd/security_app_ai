@@ -1,5 +1,7 @@
 body {
   background-color: #282c34;
+  background-image: url("./files/MSW4939_HDR-X2.jpg");
+  background-size: 100%;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -142,7 +144,22 @@ code {
 }
 
 .websiteTitle{
-  font-size: 70px;
+  font-size: 90px;
+  font-weight: bold; 
+  color: #fff; 
+  text-align: center
+}
+
+.main_text{
+  color: #fff;
+  font-size: 25px;
+  width: 65%;
+  text-align: justify;
+  line-height: 40px;
+}
+
+.secondaryHeader{
+  font-size: 50px;
   font-weight: bold; 
   color: #fff; 
   text-align: center
