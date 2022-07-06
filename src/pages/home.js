@@ -140,7 +140,7 @@ export default function Home() {
               style={{display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: "column", marginBottom: 1000, backgroundColor: 'rgba(0, 0, 0, 0.8)',}}
             >
               <ContentContainer style={{display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "space-around"}}>
-              <h2 className='secondaryHeader' style={{width: "80%"}}>Management of vulnerabilitiy</h2>
+              <h2 className='secondaryHeader' style={{width: "80%"}}>Management of vulnerabilities</h2>
                 <p className='main_text'> 
                 With new technologys and growing networks organizations start to struggle to manage all 
                 the upcoming new vulnerabilities. Conventional vulnerability management methods 
@@ -201,12 +201,15 @@ export default function Home() {
             </ParallaxLayer>
 
             <ParallaxLayer    
-              offset={5.3}
+              offset={5.2}
               speed={1}
               style={{display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: "column", marginBottom: 1000 }}
             >
-              <ContentContainer style={{display: "flex", flexDirection: "column", alignItems: "flex-start", justifyContent: "space-around", backgroundColor: 'rgba(0, 0, 227, 0.9)'}}>
-                <h2 className='secondaryHeader' style={{marginLeft: 100}}>Podcast</h2>
+              <ContentContainer style={{display: "flex", flexDirection: "column", alignItems: "flex-start", justifyContent: "space-around", backgroundColor: 'rgba(0, 0, 0, 0.8)', paddingLeft: 60, paddingBottom: 40}}>
+                <h2 className='secondaryHeader' style={{fontSize: 30, marginBottom: 10}}>Creators</h2>
+                <h3 style={{color: "white"}}>Felix Jaezosch <br></br><a href='https://www.linkedin.com/in/felix-jaezosch/'>https://www.linkedin.com/in/felix-jaezosch/</a></h3>
+                <h3 style={{color: "white"}}>Merzouk Benamar <br></br><a href='https://www.linkedin.com/in/merzouk-benamar/'>https://www.linkedin.com/in/merzouk-benamar/</a></h3>
+                <h3 style={{color: "white"}}>Lourenço Rosado <br></br><a href='https://www.linkedin.com/in/lourenco-rosado/'>https://www.linkedin.com/in/lourenco-rosado/</a></h3>
               </ContentContainer>
 
             </ParallaxLayer>
