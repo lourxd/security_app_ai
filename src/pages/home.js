@@ -190,7 +190,7 @@ export default function Home() {
               offset={5}
               factor={0.4}
               speed={0.1}
-              style={{display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: "column", marginBottom: 1000, }}
+              style={{display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: "column", marginBottom: 1000, zIndex: 10}}
             >
               <ContentContainer style={{display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "space-around", backgroundColor: 'rgba(0, 0, 227, 0.9)', padding: 20, paddingBottom: 40}}>
               <h2 className='secondaryHeader' style={{width: "80%"}}>Podcast</h2>
@@ -203,7 +203,7 @@ export default function Home() {
             <ParallaxLayer    
               offset={5.2}
               speed={1}
-              style={{display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: "column", marginBottom: 1000 }}
+              style={{display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: "column",}}
             >
               <ContentContainer style={{display: "flex", flexDirection: "column", alignItems: "flex-start", justifyContent: "space-around", backgroundColor: 'rgba(0, 0, 0, 0.8)', paddingLeft: 60, paddingBottom: 40}}>
                 <h2 className='secondaryHeader' style={{fontSize: 30, marginBottom: 10}}>Creators</h2>

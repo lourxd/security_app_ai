@@ -1,15 +1,13 @@
 import React from "react"
 import podcast from "../files/podcast.mp3"
-
-import ReactAudioPlayer from 'react-audio-player';
 function PodcastPlayer(){
 
     return(
         
-        <ReactAudioPlayer
+        <audio
             src={podcast}
-            autoPlay
             controls
+            style={{zIndex: 10}}
         />
     )
 };
